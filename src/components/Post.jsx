@@ -14,12 +14,14 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share"; 
-import { CCD } from "./constants";
+
 import { FEED_DATA } from "./DataFeed";
 
 function Post() {
     return ( 
         <>
+
+
         {FEED_DATA.map((data) => (
         <Card sx={{ marginBottom:2 , boxShadow: 5 }}>
             <CardHeader
