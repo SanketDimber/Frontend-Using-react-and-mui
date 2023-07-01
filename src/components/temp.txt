@@ -1,0 +1,37 @@
+ sx={{
+                            width:"90%",
+                            height:40,
+                            marginTop:3,
+                            marginLeft:3,
+                            borderRadius:"0px 20px 0px 20px"
+
+                        }}
+
+          
+
+    sx={{
+                            width:"90%",
+                            height:35,
+                            marginTop:-1.5,
+                            marginLeft:5,
+                            borderRadius:"0px 20px 0px 20px"
+
+                        }}
+
+
+                        sx={{ display: { xs: "none", sm: "block", } }}
+
+
+
+                         sx={{
+        position: "fixed",
+        width: "28%",
+        // overflow:'auto' ,
+        height: "100%",
+        overflow: "scroll",
+        display: "flex",
+        flexDirection: "column",
+        // overflowY: 'hidden'
+    }}
+
+   
